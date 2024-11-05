@@ -1,0 +1,22 @@
+KEY POINTS TO REMEMBER WHEN SETTING CONVERGENCE FINAL DELIVERABLE PYTHON FILE ON YOUR PC:
+
+- First of all create a new environment
+- Now activate the environment
+- In that environment install the required dependencies that are as follows
+	1.cv2 (pip install opencv-python)
+	2.torch (pip install torch==2.3.1)
+	3.skimage (pip install scikit-image)
+	4.numpy (pip install numpy==1.25.1)
+	5.matplotlib (pip install matplotlib)
+	6.sys
+	7.Os
+	8.time
+	9.airlabs (pip install airlabs)
+       10.pybind11( pip install pybind11>=2.12)
+       11.SimpleITK (pip install SimpleITK)
+Note: Few of the libraries are already installed as python packages (ex sys,os and time)
+- When setting up the convergence code and installing libraries on your PC make sure that the libraries are of the same version as specified at the end of the video using pip list
+- Make sure that numpy is of version 1.25.1 as the algorithm is only supported on that version (There was a new version of numpy that came out that is 2.0.0 and that version will cause issues when running the algorithm)
+- Now simply run the algorithm in the environment.
+- Make sure that the airlab folder (provided in the convergence algorithm repo) and the convergence algorithm python file are present in the same location that is in the same folder
+
